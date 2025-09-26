@@ -1,0 +1,19 @@
+fastapi==0.115.*
+uvicorn[standard]==0.30.*
+langchain==0.2.*
+langchain-community==0.2.*
+langchain-openai==0.1.*
+langsmith==0.1.*
+azure-search-documents==11.5.*
+azure-identity==1.17.*
+azure-storage-blob==12.23.*
+pypdf==4.*
+python-dotenv==1.0.*
+httpx==0.27.*
+sse-starlette==1.6.*           # if you prefer SSE; below I use StreamingResponse (no SSE needed)
+langchain-cohere==0.1.*
+cohere==5.*
+
+# Splitters live in separate package as of LangChain 0.2
+langchain-text-splitters==0.2.*
+

@@ -1,0 +1,49 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ENV/
+node_modules/
+.DS_Store
+*.swp
+.idea/
+.vscode/
+.env
+*.env
+.env.*
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+.pytest_cache/
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+**/node_modules/
+dist/
+build/
+
+# Env / Secrets
+.env
+*.env
+**/.env
+.env.*
+
+# Local files we don't want to push
+MSc_Thesis_Econometrics_final_version.pdf
+*.log
+
