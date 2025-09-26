@@ -17,7 +17,7 @@ except Exception:
 RUN_NAME = "rag_chain"
 TAGS = ["proj:thesis", "stage:dev", "retriever:hybrid-rrf", "gen:responses"]
 VERSION = "2025-09-17"
-RETRIEVER_K = 8  # number of candidate chunks to retrieve; keep K/2 after rerank
+RETRIEVER_K = 10  # number of candidate chunks to retrieve; keep K/2 after rerank
 logger = logging.getLogger("rag.rerank")
 
 def run_meta(question: str, retrieved_docs, reranked_docs):
