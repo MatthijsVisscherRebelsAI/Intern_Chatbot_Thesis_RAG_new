@@ -1,49 +1,38 @@
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-ENV/
-node_modules/
-.DS_Store
-*.swp
-.idea/
-.vscode/
-.env
-*.env
-.env.*
-build/
-dist/
-*.egg-info/
-.coverage
-htmlcov/
-.pytest_cache/
-# OS
+# --- OS ---
 .DS_Store
 
-# Python
+# --- Editors/IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Python ---
 __pycache__/
 **/__pycache__/
 *.py[cod]
+*.egg-info/
 .venv/
 venv/
+ENV/
 .python-version
 .mypy_cache/
 .ruff_cache/
 .pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
 
-# Node / Frontend
+# --- Node / Frontend ---
 node_modules/
 **/node_modules/
 dist/
 build/
 
-# Env / Secrets
-.env
+# --- Environment / Secrets ---
+# (matches .env, .env.local, .env.production, nested .env files, etc.)
+**/.env*
 *.env
-**/.env
-.env.*
 
-# Local files we don't want to push
+# --- Local files we don't want to push ---
 MSc_Thesis_Econometrics_final_version.pdf
 *.log
-
